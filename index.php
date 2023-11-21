@@ -4,7 +4,7 @@ $text = $_POST['text'];
 
 $replace = $_POST['replace_word'];
 
-$newText = str_replace('Lorem Ipsum', $replace, $text)
+$newText = str_replace($replace, '***', $text)
     ?>
 <!DOCTYPE html>
 <html lang="en">
